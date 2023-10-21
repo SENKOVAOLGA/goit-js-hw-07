@@ -16,11 +16,11 @@ function handlerClick(evt) {
     const target = evt.target;
     if (target.classList.contains("gallery__image")) {
         const originalImgUrl = target.dataset.source;
-        const modal = basicLightbox.create(`<img src="${originalImgUrl} width="800" height="600"`);
+        const modal = basicLightbox.create(`<img src="${originalImageUrl} width="800" height="600"`);
         modal.show();
     }
 }
-     
+      
 // function imageClick(event) {
 //      event.preventDefault();
 //      const target = event.target;
