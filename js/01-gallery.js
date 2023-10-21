@@ -20,15 +20,4 @@ function handlerClick(evt) {
         modal.show();
     }
 }
-      
-// function imageClick(event) {
-//      event.preventDefault();
-//      const target = event.target;
-//      if (target.classList.contains('gallery__image')) {
-//          const originalImageUrl = target.dataset.source;
-//          const modal = basicLightbox.create(`
-//          <img src="${originalImageUrl}" width="800" height="600">
-//          `);
-//          modal.show();
-//      }
-// }
+ 
